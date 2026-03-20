@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "caller",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/fallback.sol": "Caller"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/fallback.sol": {
+			"keccak256": "0x6631c88c7be89f6f5a0fe93dbc7f8989cf360d3ed1ead998b064df40cffbfe72",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b264fc19366027578d0cec2e4e03433a9c3110ee4d540f18d84204faea614e38",
+				"dweb:/ipfs/QmdZk81FHJ2oDFaLE3RbvcRFacxERTzgf4GxUbdi7EK2Hk"
+			]
+		}
+	},
+	"version": 1
+}
