@@ -16,6 +16,7 @@ contract Person {
 }
 
 contract Stu is Person {
+    uint public stuAge;
     function foo() public {
         this.fn1();
         // this.fn2(); // 报错
